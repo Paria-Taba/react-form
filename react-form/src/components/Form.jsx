@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../components/Form.css"
 import Joi from "joi"
+
 const schema = Joi.object({
 	name: Joi.string().min(3).max(10).required(),
 	lastName: Joi.string().min(3).required().max(20),
