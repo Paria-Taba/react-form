@@ -1,0 +1,1 @@
+.form{border:1px solid black;width:60%;padding:20px;display:flex;flex-direction:column}.form>*{margin:10px}.form button{padding:10px;background-color:#82ff82;border-color:#55d555;border-radius:10px}.form input,#role{padding:10px}.error{color:red}.valid{border:2px solid green}.invalid{border:2px solid red}
